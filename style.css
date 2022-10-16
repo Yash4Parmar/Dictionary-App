@@ -1,0 +1,104 @@
+* {
+    font-family: cursive;
+
+}
+
+body {
+    background-color: rgb(137, 212, 239);
+    /* background-image: linear-gradient(to bottom right, rgb(88, 215, 213), rgb(235, 242, 243)) */
+    /* background: linear-gradient(#e66465, #9198e5); */
+}
+
+footer {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    font-size: small;
+}
+
+.main-div {
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgb(114, 114, 235);
+    padding: 80px 50px;
+    /* background-color: #00203FFF; */
+    /* background: linear-gradient(#00203FFF, #9198e5); */
+    background-image: linear-gradient(to bottom right, rgb(35, 153, 167), #00203FFF);
+    width: 40rem;
+    height: 13rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+}
+
+.text-box {
+    font-size: 15px;
+    font-weight: 500;
+    color: #00203FFF;
+    width: 30rem;
+    height: 2rem;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ADEFD1FF;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+/* .text-box input {
+    outline: none;
+    border: none;
+} */
+
+
+
+.search-button {
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    background-color: darkblue;
+    color: whitesmoke;
+    text-align: center;
+    /* font-size: 15px; */
+
+}
+
+.search-button:hover {
+    background-color: rgb(137, 212, 239);
+    border-color: rgb(22, 4, 87);
+    color: darkblue;
+    font-weight: 500;
+}
+
+.result h3 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.result button {
+    position: absolute;
+    top: 140px;
+    left: 550px;
+}
+
+.result .details {
+    display: flex;
+    gap: 10px;
+    color: rgb(199, 224, 245);
+    font-size: 15px;
+}
+
+.result .word-meaning {
+    color: whitesmoke;
+}
+
+.result .word-example {
+    color: rgb(114, 186, 237);
+    font-style: italic;
+    border-left: 5px solid rgb(235, 123, 235);
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
